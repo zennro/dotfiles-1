@@ -261,3 +261,5 @@ alias nomz='ps aux | less'
 alias nomnom='killall'
 alias cya='reboot'
 alias kthxbai='halt'
+
+alias tund='killall -9 ssh;ssh -D 8080 -f -C -q -N -p 22011 mops2@188.214.31.2'
