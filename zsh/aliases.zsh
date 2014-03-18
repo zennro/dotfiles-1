@@ -264,3 +264,4 @@ alias kthxbai='halt'
 
 alias tund='killall -9 ssh;ssh -D 8080 -f -C -q -N -p 22011 mops2@188.214.31.2'
 alias work='ssh -t mops ssh -p 49999 dev@localhost'
+alias zz='source ~/.zshrc'
